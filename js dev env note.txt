@@ -1,0 +1,19 @@
+js dev environment
+	
+	text editor
+		atom
+		webstorm
+		brackets
+		vscode ++
+		
+		.editorconfig
+		
+	package manager
+		bower
+		npm ++
+		jspm
+		jam
+		vaolo
+	package security
+		retire js
+		node security platform
