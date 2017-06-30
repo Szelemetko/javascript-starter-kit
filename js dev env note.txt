@@ -17,3 +17,19 @@ js dev environment
 	package security
 		retire js
 		node security platform
+	dev web server
+		http-server
+		live-server
+		express ++
+			koa
+			hapi
+		budo
+		webpack dev server
+		browsersync - webpack, browserify, gulp
+	share work in progress
+		not azure, aws, google compute as it is heavy to start
+		
+		localtunnel
+		ngrok
+		surge
+		now
