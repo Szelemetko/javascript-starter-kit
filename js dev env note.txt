@@ -29,7 +29,7 @@ js dev environment
 	share work in progress
 		not azure, aws, google compute as it is heavy to start
 		
-		localtunnel
+		localtunnel + browsersync!!!
 		ngrok
 		surge
 		now
