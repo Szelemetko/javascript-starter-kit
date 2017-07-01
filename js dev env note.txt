@@ -33,3 +33,29 @@ js dev environment
 		ngrok
 		surge
 		now
+		
+	automation
+		grunt
+			config file
+			config over code
+			writes files between steps
+		gulp ++
+			in memory streams - pipes
+			fast
+			code over configuration
+			large plugin ecosystem
+		npm scripts ++
+			leverage your os
+			declared i package json
+			directly use npm packages
+			call sepearate node scripts
+			convetion based hooks
+			tools from largest package manaer (npm)
+			use tools direclty
+			no need for separate plugins
+			simpler debugging
+			better docs
+			easy to learn
+			simple
+		shell scripts
+		
