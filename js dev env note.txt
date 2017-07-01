@@ -59,3 +59,38 @@ js dev environment
 			simple
 		shell scripts
 		
+	transpiling
+		list of languages that compile to js
+		babel +++
+		typescript ++ 
+		elm +
+		
+	bundling
+		commonjs doesn't work in web browser
+		package project into files
+		improve node 
+			iife --
+			amd --
+			commonjs +
+			umd
+			es6 modules +++
+				standardized
+				statically analyzable
+					improved autocomplete
+					intelligent refactroing
+					failes fast
+					tree shaking
+				easy to read
+					named import
+					default exports
+					
+		selecting a bundler
+			require js -- old way
+			browserify ++
+			webpack +++
+			rollup +
+			jspmv +++
+		
+			sourcemaps !!!
+		
+		
