@@ -92,5 +92,33 @@ js dev environment
 			jspmv +++
 		
 			sourcemaps !!!
+			
+	linting
+		enforce consistency - curly brace position, confrim/alert, trailing commas, globals, eval
+		avoid mistakes - extra prenthesis, overwriting funciton, assignment in conditional, missing edefault case in switch, debugger/console.log
 		
+		pick a linter
+			jslint
+			jshint
+			eslint +++
+
+		eslint decisions:
+			1. config file format
+			2. which rules -whole team should decide
+			3. warnings or errors
+			4. plugins?
+			5. use a preset?
+				from scratch
+				recommended +++
+				presets - airbnb, xo, standardjs
+				
+		eslint-loader vs eslint-watch
+			eslint-watch - esw
+			comments disable some rules
+			
+	testing and continious integartion
+		6 key testing decisions
+			unit testing - single function or modules
+			integration - interactions between modules
+			ui - automate interactions with ui - selenium
 		
