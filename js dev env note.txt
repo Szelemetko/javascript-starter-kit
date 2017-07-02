@@ -142,3 +142,65 @@ js dev environment
 					rapid feedback
 					facitilitates tdd
 					automatic = low friction
+					
+		mocha + chai + jsdom
+		
+		CI
+			travis ci - linux env
+			appveyor - windows env
+			jenkins
+			circle ci
+			semaphore
+			snap ci
+			
+	HTTP Calls:
+		Making HTTP Calls
+		Mocking HTTP Calls	
+			why mock?
+			mocking approaches
+			generate mock data and mock API
+			
+		node:
+			http
+			request +++
+		browser:
+			xmlHttpRequest
+			jquery
+			framework-based (angular)
+			fetch (What Working Group) +++
+		node & browser:
+			isomorphic-fetch +
+			xhr (npm package) +
+			SuperAgent +
+			Axios +
+			
+		Why centralize api call?
+			1.spot
+				configure all calls
+				handle preloader logic
+				handle errors
+				single seam for mocking
+				
+			polyfill.io
+		
+		Mock HTTP
+			Nock
+			Static JSON
+			Dev webserver
+				api-mock
+				JSON server
+				JSON Schema faker
+					faker.js
+					chance.js
+					randexp.js
+				Browsersync
+				Express
+				
+		json
+			jsonschema
+			json content rules
+			json ld
+			raml
+			
+		advanced rest client
+			
