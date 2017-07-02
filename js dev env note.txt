@@ -117,8 +117,28 @@ js dev environment
 			comments disable some rules
 			
 	testing and continious integartion
-		6 key testing decisions
-			unit testing - single function or modules
-			integration - interactions between modules
-			ui - automate interactions with ui - selenium
+		unit testing - single function or modules
+		integration - interactions between modules
+		ui - automate interactions with ui - selenium
 		
+		unit testing decisions
+			1. framework
+				mocha, jasmine, tape, qunit, ava, jest
+			2. assertion library
+				chai, should.js, expect
+			3. helper libraries
+				jsdom, cheerio
+			4. where to run tests
+				browser 
+					karma, testem
+				headless browser
+					phantomjs
+				in-memyr dom
+					jsdom
+			5. where to place your test files
+				centralized vs alongside
+			6. when to run tests
+				after every save:
+					rapid feedback
+					facitilitates tdd
+					automatic = low friction
