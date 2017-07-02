@@ -203,4 +203,15 @@ js dev environment
 			raml
 			
 		advanced rest client
+		
+	project structure:
+		
+		1. put js in .js file
+			never put js inline
+			avoid generating auto code for users
+			generate data from the server than used to fork logic
+		2. 	organize by file typescript
+				organize by feature +++			
+		3.  Extract logic to POJOs
 			
+		4. include an example app!!!
