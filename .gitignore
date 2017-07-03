@@ -15,8 +15,7 @@ pids
 lib-cov
 
 # directory with production build
-dist
-
+dist/
 
 # Coverage directory used by tools like istanbul
 coverage
