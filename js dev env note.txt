@@ -215,3 +215,20 @@ js dev environment
 		3.  Extract logic to POJOs
 			
 		4. include an example app!!!
+		
+	production build
+		minification
+			shorten vars and function names
+			remove comments
+			remove whitespace and new line
+			dead code elimination / tree-shaking
+			debug via source map
+		sourcemaps
+		dynamic html
+			html webpack bundle
+			inject js via node
+		bundle splitting
+		cache busting
+		error logging
+		
+		
