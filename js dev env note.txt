@@ -228,7 +228,30 @@ js dev environment
 			html webpack bundle
 			inject js via node
 		bundle splitting
+			per page
+			separate 3rd party from app code (main and vendor js)
 		cache busting
+			save http requests
+			force request for the latest version
+			plan:
+				1. Hash bundle filename
+				2. Generate HTML dynamically
 		error logging
-		
+			track.js
+			sentry
+			new relic
+			raygun
+			
+		error logging decisions:
+			error metadata:
+				browser
+				stack trace
+				custom api for enhanced tracking
+				previous actions
+			notifications & integartions
+			analytics and filtering
+			pricint
+			
+		conditional html
+			ejs, jade, underscore, handlebards
 		
