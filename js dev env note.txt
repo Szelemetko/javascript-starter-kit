@@ -275,6 +275,39 @@ js dev environment
 			githubpages - static only
 			surge - static only - host ui
 		automated deployment
+			heroku
+			ui - npm start, npm run build, npm run deploy
 		handing starter kit updates
+			update approaches:
+				yeoman
+					create yeoman generator from your starter kit
+						update yeoman:
+							commit
+							scaffold over the existing project
+							resolve conflicts manually
+				github
+					host on github
+					fork starter kit for new project
+					pull changes from master as starter kit is enchanced
+				npm
+					encapsulate kit in npm package
+					update npm package to receive latest
+					-- can't tweak package for current project
+				
+					what can we centralize:
+						buildscripts -npm package
+						npm scripts in package.json
+						webpack.config
+						.eslintrc
+
+					decentralized
+						.editorconfig
+						.babelrc
+						CI config (.travi.yml, Appveyor.yml)
+						Package references in package.json
 		inspiration
+			http://andrewhfarmer.com/starter-project/
+			https://github.com/gianarb/awesome-angularjs
+			framework name + development environment, boilerplate, starter kit, starter project, seed
+		
 		challenge
