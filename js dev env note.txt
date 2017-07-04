@@ -253,5 +253,28 @@ js dev environment
 			pricint
 			
 		conditional html
-			ejs, jade, underscore, handlebards
-		
+			ejs, jade, underscore, handlebards -	
+			
+	production deployment
+		separating ui from the api
+			simple low-ris ui only deploys
+			seprates concerns
+				separate teams
+				less to understand
+				scale back-end separately
+			cheap ui hosting
+			server ui via a content delivery network
+			
+		hosting providers
+			aws
+			azure
+			heroku - host api 
+			firebase
+			google cloud platform
+			netlify	- static only
+			githubpages - static only
+			surge - static only - host ui
+		automated deployment
+		handing starter kit updates
+		inspiration
+		challenge
